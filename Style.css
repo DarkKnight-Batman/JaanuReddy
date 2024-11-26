@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Specific Page Backgrounds */
+body.page1 {
+    background: url('./image/Background.jpg');
+}
+
+body.page2 {
+    background: url('./image/water-lily-3784022_1920.jpg') no-repeat center center;
+    background-size: cover; /* Ensures the image covers the entire page */
+    height: 100vh; /* Ensures the body takes the full height of the viewport */
+    margin: 0; /* Removes default body margin */
+}
+
+
+body.page3 {
+    background: url('./image/Background3.jpg');
+}
+
+/* Container Styles */
+.container {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.4); /* Semi-transparent white overlay */
+    border: 2px solid #ddd;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    color: #333;
+    max-width: 90%; /* Responsive width */
+}
+
+/* Header and Text Styles */
+h1 {
+    color: #ff6f61;
+}
+
+p {
+    color: #333;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+/* Button Styles */
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease; /* Smooth hover effect */
+}
+
+button:hover {
+    background: #e85d55;
+}
+
+/* Audio Styles */
+audio {
+    margin-top: 20px;
+}
+.profile-picture img {
+    width: 450px; /* Adjust the width as needed */
+    height: 450px; /* Adjust the height as needed */
+    border-radius: 50%; /* Circular profile picture */
+    margin-bottom: 20px;
+}
+.container1 {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.7); /* Semi-transparent white overlay */
+    padding: 20px;
+    border: 2px solid #ddd;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    color: #333;
+    max-width: 90%;
+}
